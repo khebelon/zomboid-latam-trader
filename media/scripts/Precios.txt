@@ -13,7 +13,6 @@ module Tienda De Los Admins
         Category: Dispensadora,
 	CanBeDoneFromFloor : TRUE,
         }
-
     recipe Vender joyeria de plata $5
         {
         Locket/Necklace_Silver/Necklace_SilverCrucifix/NoseRing_Silver/NoseStud_Silver/Earring_LoopLrg_Silver/Earring_LoopMed_Silver/Earring_LoopSmall_Silver_Both/Earring_LoopSmall_Silver_Top/Earring_Stud_Silver/Ring_Right_MiddleFinger_Silver/Ring_Left_MiddleFinger_Silver/Ring_Right_RingFinger_Silver/Ring_Left_RingFinger_Silver/Bracelet_BangleRightSilver/Bracelet_BangleLeftSilver/Bracelet_ChainRightSilver/Bracelet_ChainLeftSilver/NecklaceLong_Silver,
@@ -23,7 +22,6 @@ module Tienda De Los Admins
         Category: Dispensadora,
 	CanBeDoneFromFloor : TRUE,
         }
-
     recipe vender joyeria de gemas y oro $12
         {
         Necklace_GoldRuby/Necklace_GoldDiamond/NecklaceLong_GoldDiamond/Ring_Right_MiddleFinger_GoldRuby/Ring_Left_MiddleFinger_GoldRuby/Ring_Right_RingFinger_GoldRuby/Ring_Left_RingFinger_GoldRuby/Ring_Right_MiddleFinger_GoldDiamond/Ring_Left_MiddleFinger_GoldDiamond/Ring_Right_RingFinger_GoldDiamond/Ring_Left_RingFinger_GoldDiamond,
@@ -33,7 +31,6 @@ module Tienda De Los Admins
         Category: Dispensadora,
 	CanBeDoneFromFloor : TRUE,
         }
-
     recipe Vender joyeria de gemas y plata $7
         {
         Necklace_SilverSapphire/Necklace_SilverDiamond/NecklaceLong_SilverEmerald/NecklaceLong_SilverSapphire/NecklaceLong_SilverDiamond/Ring_Right_MiddleFinger_SilverDiamond/Ring_Left_MiddleFinger_SilverDiamond/Ring_Right_RingFinger_SilverDiamond/Ring_Left_RingFinger_SilverDiamond,
@@ -43,7 +40,6 @@ module Tienda De Los Admins
         Category: Dispensadora,
 	CanBeDoneFromFloor : TRUE,
         }
-
     recipe Vender joyas y otra bisuteria $2
         {
         Necklace_DogTag/Necklace_Crucifix/Necklace_YingYang/Necklace_Pearl/NecklaceLong_Amber/Necklace_Choker_Sapphire/Necklace_Choker_Amber/Necklace_Choker_Diamond/Earring_Stone_Sapphire/Earring_Stone_Emerald/Earring_Stone_Ruby/Earring_Pearl/Earring_Dangly_Sapphire/Earring_Dangly_Emerald/Earring_Dangly_Ruby/Earring_Dangly_Diamond/Earring_Dangly_Pearl,
@@ -80,7 +76,6 @@ module Tienda De Los Admins
         Category: Dispensadora,
 	CanBeDoneFromFloor : TRUE,
         }
-
     recipe Comprar Hacha Lenador $6000
         {
         Money=6000,
@@ -90,7 +85,6 @@ module Tienda De Los Admins
         Category: Dispensadora,
 	CanBeDoneFromFloor : TRUE,
         }
-
     recipe Comprar Coserva de Berenjena $4500
         {
         Money=4500,
@@ -100,7 +94,6 @@ module Tienda De Los Admins
         Category: Dispensadora,
 	CanBeDoneFromFloor : TRUE,
         }
-
     recipe Comprar Mascara de Soldador $6100
         {
         Money=6100,
@@ -110,7 +103,6 @@ module Tienda De Los Admins
         Category: Dispensadora,
 	CanBeDoneFromFloor : TRUE,
         }
-
     recipe Comprar Revista de Generador $7000
         {
         Money=7000,
@@ -120,7 +112,6 @@ module Tienda De Los Admins
         Category: Dispensadora,
 	CanBeDoneFromFloor : TRUE,
         }
-
     recipe Comprar Katana $10000
         {
         Money=10000,
@@ -130,7 +121,6 @@ module Tienda De Los Admins
         Category: Dispensadora,
 	CanBeDoneFromFloor : TRUE,
         }
-
     recipe Comprar Aguja de Sutura $5500
         {
         Money=5500,
@@ -140,7 +130,6 @@ module Tienda De Los Admins
         Category: Dispensadora,
 	CanBeDoneFromFloor : TRUE,
         }
-
     recipe Comprar Semilla de Brocoli $3500
         {
         Money=3500,
@@ -150,7 +139,6 @@ module Tienda De Los Admins
         Category: Dispensadora,
 	CanBeDoneFromFloor : TRUE,
         }
-
     recipe Comprar Katana $10000
         {
         Money=10000,
@@ -160,7 +148,6 @@ module Tienda De Los Admins
         Category: Dispensadora,
 	CanBeDoneFromFloor : TRUE,
         }
-
     recipe Comprar Semilla de Calabaza $3500
         {
         Money=3500,
@@ -170,7 +157,6 @@ module Tienda De Los Admins
         Category: Dispensadora,
 	CanBeDoneFromFloor : TRUE,
         }
-
     recipe Cargador de Bateria $11000
         {
         Money=11000,
@@ -180,7 +166,6 @@ module Tienda De Los Admins
         Category: Dispensadora,
 	CanBeDoneFromFloor : TRUE,
         }
-
     recipe Comprar Alambre $11000
         {
         Money=11000,
@@ -190,7 +175,6 @@ module Tienda De Los Admins
         Category: Dispensadora,
 	CanBeDoneFromFloor : TRUE,
         }
-
     recipe Comprar Revista de Herbolaria $12000
         {
         Money=12000,
@@ -200,10 +184,68 @@ module Tienda De Los Admins
         Category: Dispensadora,
 	CanBeDoneFromFloor : TRUE,
         }
-
-
-
-
-
+    recipe Comprar Caja de Balas 308 $2500
+        {
+        Money=2500,
+        Result: 308Box,
+        Time: 500,
+        keep Tienda_Latam,
+        Category: Dispensadora,
+	CanBeDoneFromFloor : TRUE,
+        }
+    recipe Comprar Caja de Balas 44 Magnum $3000
+        {
+        Money=3000,
+        Result: Bullets44Box,
+        Time: 500,
+        keep Tienda_Latam,
+        Category: Dispensadora,
+	CanBeDoneFromFloor : TRUE,
+        }
+    recipe Comprar Caja de Balas 45 ACP $2500
+        {
+        Money=2500,
+        Result: Bullets45Box,
+        Time: 500,
+        keep Tienda_Latam,
+        Category: Dispensadora,
+	CanBeDoneFromFloor : TRUE,
+        }
+    recipe Comprar Caja de Cartuchos de Escopeta $4500
+        {
+        Money=4500,
+        Result: ShotgunShellsBox,
+        Time: 500,
+        keep Tienda_Latam,
+        Category: Dispensadora,
+	CanBeDoneFromFloor : TRUE,
+        }
+    recipe Comprar Caja de Balas 556 $4000
+        {
+        Money=4000,
+        Result: 556Box,
+        Time: 500,
+        keep Tienda_Latam,
+        Category: Dispensadora,
+	CanBeDoneFromFloor : TRUE,
+        }
+    recipe Comprar Caja de Balas 762x51 $4500
+        {
+        Money=4500,
+        Result: 762x51Box,
+        Time: 500,
+        keep Tienda_Latam,
+        Category: Dispensadora,
+	CanBeDoneFromFloor : TRUE,
+        }
+    recipe Comprar FAL $6500
+        {
+        Money=6500,
+        Result: FN_FAL,
+        Time: 500,
+        keep Tienda_Latam,
+        Category: Dispensadora,
+	CanBeDoneFromFloor : TRUE,
+        }
 }
     

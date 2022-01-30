@@ -1,0 +1,12 @@
+module Base
+
+{
+    item Tienda_Latam
+	{
+		Type = Normal,
+		DisplayName = Maquina dispensadora,
+	        Icon	    = Texura_Dispensadora,
+		Weight = 6969,
+	}
+}
+

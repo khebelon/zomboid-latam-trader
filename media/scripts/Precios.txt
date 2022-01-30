@@ -1,0 +1,80 @@
+module Tienda De Los Admins
+{
+    imports
+        {
+        Base
+        }
+    recipe Vender joyeria de oro $10
+        {
+        Necklace_Gold/Necklace_GoldRuby/NecklaceLong_Gold/NoseRing_Gold/NoseStud_Gold/Earring_LoopLrg_Gold/Earring_LoopMed_Gold/Earring_LoopSmall_Gold_Both/Earring_LoopSmall_Gold_Top/Earring_Stud_Gold/Ring_Right_MiddleFinger_Gold/Ring_Left_MiddleFinger_Gold/Ring_Right_RingFinger_Gold/Ring_Left_RingFinger_Gold/WristWatch_Right_ClassicGold/WristWatch_Left_ClassicGold/Bracelet_BangleRightGold/Bracelet_BangleLeftGold/Bracelet_ChainRightGold/Bracelet_ChainLeftGold,
+        Result: Money=10,
+        Time: 10,
+        keep Tienda_Latam,
+        Category: Dispensadora,
+	CanBeDoneFromFloor : TRUE,
+        }
+    recipe Vender joyeria de plata $5
+        {
+        Locket/Necklace_Silver/Necklace_SilverCrucifix/NoseRing_Silver/NoseStud_Silver/Earring_LoopLrg_Silver/Earring_LoopMed_Silver/Earring_LoopSmall_Silver_Both/Earring_LoopSmall_Silver_Top/Earring_Stud_Silver/Ring_Right_MiddleFinger_Silver/Ring_Left_MiddleFinger_Silver/Ring_Right_RingFinger_Silver/Ring_Left_RingFinger_Silver/Bracelet_BangleRightSilver/Bracelet_BangleLeftSilver/Bracelet_ChainRightSilver/Bracelet_ChainLeftSilver/NecklaceLong_Silver,
+        Result: Money=5,
+        Time: 10,
+        keep Tienda_Latam,
+        Category: Dispensadora,
+	CanBeDoneFromFloor : TRUE,
+        }
+    recipe vender joyeria de gemas y oro $12
+        {
+        Necklace_GoldRuby/Necklace_GoldDiamond/NecklaceLong_GoldDiamond/Ring_Right_MiddleFinger_GoldRuby/Ring_Left_MiddleFinger_GoldRuby/Ring_Right_RingFinger_GoldRuby/Ring_Left_RingFinger_GoldRuby/Ring_Right_MiddleFinger_GoldDiamond/Ring_Left_MiddleFinger_GoldDiamond/Ring_Right_RingFinger_GoldDiamond/Ring_Left_RingFinger_GoldDiamond,
+        Result: Money=12,
+        Time: 10,
+        keep Tienda_Latam,
+        Category: Dispensadora,
+	CanBeDoneFromFloor : TRUE,
+        }
+    recipe Vender joyeria de gemas y plata $7
+        {
+        Necklace_SilverSapphire/Necklace_SilverDiamond/NecklaceLong_SilverEmerald/NecklaceLong_SilverSapphire/NecklaceLong_SilverDiamond/Ring_Right_MiddleFinger_SilverDiamond/Ring_Left_MiddleFinger_SilverDiamond/Ring_Right_RingFinger_SilverDiamond/Ring_Left_RingFinger_SilverDiamond,
+        Result: Money=7,
+        Time: 10,
+        keep Tienda_Latam,
+        Category: Dispensadora,
+	CanBeDoneFromFloor : TRUE,
+        }
+    recipe Vender joyas y otra bisuteria $2
+        {
+        Necklace_DogTag/Necklace_Crucifix/Necklace_YingYang/Necklace_Pearl/NecklaceLong_Amber/Necklace_Choker_Sapphire/Necklace_Choker_Amber/Necklace_Choker_Diamond/Earring_Stone_Sapphire/Earring_Stone_Emerald/Earring_Stone_Ruby/Earring_Pearl/Earring_Dangly_Sapphire/Earring_Dangly_Emerald/Earring_Dangly_Ruby/Earring_Dangly_Diamond/Earring_Dangly_Pearl,
+        Result: Money=2,
+        Time: 10,
+        keep Tienda_Latam,
+        Category: Dispensadora,
+	CanBeDoneFromFloor : TRUE,
+        }
+    recipe Vender Reloj $5
+        {
+        WristWatch_Right_ClassicBlack/WristWatch_Left_ClassicBlack/WristWatch_Right_ClassicBrown/WristWatch_Left_ClassicBrown/WristWatch_Right_ClassicMilitary/WristWatch_Left_ClassicMilitary/WristWatch_Right_DigitalBlack/WristWatch_Left_DigitalBlack/WristWatch_Right_DigitalRed/WristWatch_Left_DigitalRed/WristWatch_Right_DigitalDress/WristWatch_Left_DigitalDress,
+        Result: Base.Money=5,
+        Time: 10,
+        keep Tienda_Latam,
+        Category: Dispensadora,
+	CanBeDoneFromFloor : TRUE,
+        }
+    recipe Cambiar tarjeta por dinero $250
+        {
+        CreditCard,
+        Result: Money=250,
+        Time: 10,
+        keep Tienda_Latam,
+        Category: Dispensadora,
+	CanBeDoneFromFloor : TRUE,
+        }
+    recipe Comprar machete $30000
+        {
+        Money=30000,
+        Result: Machete,
+        Time: 500,
+        keep Tienda_Latam,
+        Category: Dispensadora,
+	CanBeDoneFromFloor : TRUE,
+        }
+}
+    
